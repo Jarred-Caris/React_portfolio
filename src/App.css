@@ -1,6 +1,7 @@
 .logo {
   width: 210px;
   margin-right: 50px;
+  border-radius: 50px;
   
 
 }
@@ -10,14 +11,16 @@
   font-size: xx-large;
   cursor: pointer;
   color: aliceblue !important;
-  margin-right: 20px
+  background-image: linear-gradient(to top, #070707, rgb(23, 95, 228)) !important;
+  border-radius: 20px;
+  margin-right: 40px
   ;
 
 }
 
 .header-wrapper {
   position: relative;
-  background: url(tech.jpg) no-repeat;
+  background: url(tech.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -39,10 +42,12 @@
 }
 
 .jumbotron {
-  color:rgb(47, 107, 219);
+  color:aliceblue;
+  background-image: linear-gradient(to bottom, #000000, rgb(23, 95, 228)) !important;
  
 }
 
 .card {
   margin: 20px;
+  background-color: black !important;
 }

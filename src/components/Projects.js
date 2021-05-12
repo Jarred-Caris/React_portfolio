@@ -27,7 +27,7 @@ const Projects = () => {
             <Card.Text>
             A Movie search app using IMDB API to pull movie information and the trailer for that movie.
             </Card.Text>
-            <Button variant="primary">View Repository</Button>
+            <Button variant="primary" href="https://github.com/Jarred-Caris/Trailer-Sailor">View Repository</Button>
           </Card.Body>
         </Card> 
             </Col>
@@ -39,7 +39,7 @@ const Projects = () => {
             <Card.Text>
               Workout tracker using MongDB and Mongoose to record fitness sessions.
             </Card.Text>
-            <Button variant="primary">View Repository</Button>
+            <Button variant="primary" href="https://github.com/Jarred-Caris/workout_tracker">View Repository</Button>
           </Card.Body>
         </Card>
             </Col>
@@ -51,7 +51,7 @@ const Projects = () => {
             <Card.Text>
             A budget tracker that can be used offline and updates once back online Using indexedDB.
             </Card.Text>
-            <Button variant="primary">View Repository</Button>
+            <Button variant="primary" href="https://github.com/Jarred-Caris/Budget_Tracker">View Repository</Button>
           </Card.Body>
         </Card>
             </Col>
