@@ -14,9 +14,9 @@ const Contact = () => {
   return (
     <div>
       <div class="jumbotron">
-        <h1 class="display-4">Projects Completed</h1>
+        <h1 class="display-4">Contact Me</h1>
         <p class="lead">
-          A Brief overview of some of the projects completed in my studies
+          Please use any of the following if you have any further questions.
         </p>
         <Container>
           <Row>
@@ -28,46 +28,43 @@ const Contact = () => {
                   <Card.Text>
                     0423013649
                   </Card.Text>
-                  <Button variant="primary">View Repository</Button>
+                  <Button variant="primary" href="tel:0423013649" >Call me</Button>
                 </Card.Body>
               </Card>
             </Col>
             <Col>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="" />
+                <Card.Img variant="top" src={Email} />
                 <Card.Body>
-                  <Card.Title>Workout Tracker</Card.Title>
+                  <Card.Title>Email</Card.Title>
                   <Card.Text>
-                    Workout tracker using MongDB and Mongoose to record fitness
-                    sessions.
+                    jarred.caris@gmail.com
                   </Card.Text>
-                  <Button variant="primary">View Repository</Button>
+                  <Button variant="primary" href="mailto:jarred.caris@gmail.com">Email me</Button>
                 </Card.Body>
               </Card>
             </Col>
             <Col>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="" />
+                <Card.Img variant="top" src={Linkedin} />
                 <Card.Body>
-                  <Card.Title>Budget Tracker</Card.Title>
+                  <Card.Title>Linkedin</Card.Title>
                   <Card.Text>
-                    A budget tracker that can be used offline and updates once
-                    back online Using indexedDB.
+                   https://www.linkedin.com/in/jarred-caris-5451aa194/
                   </Card.Text>
-                  <Button variant="primary">View Repository</Button>
+                  <Button variant="primary" href="https://www.linkedin.com/in/jarred-caris-5451aa194/">Go to my Linkedin</Button>
                 </Card.Body>
               </Card>
             </Col>
             <Col>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="" />
+                <Card.Img variant="top" src={Github} />
                 <Card.Body>
-                  <Card.Title>Budget Tracker</Card.Title>
+                  <Card.Title>Github</Card.Title>
                   <Card.Text>
-                    A budget tracker that can be used offline and updates once
-                    back online Using indexedDB.
+                    https://github.com/Jarred-Caris
                   </Card.Text>
-                  <Button variant="primary">View Repository</Button>
+                  <Button variant="primary" href="https://github.com/Jarred-Caris">View my Github</Button>
                 </Card.Body>
               </Card>
             </Col>
