@@ -44,6 +44,7 @@ body {
 .jumbotron {
   color:aliceblue;
   background-image: linear-gradient(to bottom, #000000, rgb(23, 95, 228)) !important;
+  border-radius: 20px !important;
  
 }
 
