@@ -16,7 +16,7 @@
     "web-vitals": "^1.1.2"
   },
 
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://jarred-caris.github.io/React_portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
