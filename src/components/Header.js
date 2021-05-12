@@ -1,7 +1,7 @@
 import React from "react"
 import Typed from 'react-typed';
 
-const Header = () => {
+const Header = (props) => {
     return (
         <div className= "header-wrapper">
             <div className= "main-info">
@@ -15,6 +15,7 @@ const Header = () => {
                 >
 
                 </Typed>
+                {props.children}
             
             </div>
         </div>

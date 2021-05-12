@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -11,18 +12,42 @@ const Navbar = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">About Me</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Projects</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Resume</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Contact Me</a>
-        </li>
+      <li className="nav-item">
+            <Link
+              to="/About"
+              className={
+                window.location.pathname === "/About" || window.location.pathname === "/About"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              About Me
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/Projects"
+              className={window.location.pathname === "/Projects" ? "nav-link active" : "nav-link"}
+            >
+              Projects
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/Resume"
+              className={window.location.pathname === "/Resume" ? "nav-link active" : "nav-link"}
+            >
+              Resume
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/Contact"
+              className={window.location.pathname === "/Contact" ? "nav-link active" : "nav-link"}
+            >
+              Contact
+            </Link>
+          </li>
       </ul>
     </div>
   </div>
