@@ -1,4 +1,13 @@
 import React from "react";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Trailer from "../assets/project.PNG";
+import Workout from "../assets/tracker.PNG";
+import Budget from "../assets/budget.PNG";
+
 
 const Projects = () => {
   return (
@@ -8,19 +17,51 @@ const Projects = () => {
         <p class="lead">
           A Brief overview of some of the projects completed in my studies
         </p>
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="Card image cap" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">
-              Go somewhere
-            </a>
-          </div>
-        </div>
+        <Container>
+            <Row>
+            <Col>
+            <Card style={{ width: "18rem" }}>
+         <Card.Img variant="top" src= {Trailer} />
+          <Card.Body>
+            <Card.Title>Trailer Sailor</Card.Title>
+            <Card.Text>
+            A Movie search app using IMDB API to pull movie information and the trailer for that movie.
+            </Card.Text>
+            <Button variant="primary">View Repository</Button>
+          </Card.Body>
+        </Card> 
+            </Col>
+            <Col>
+            <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src={Workout}/>
+          <Card.Body>
+            <Card.Title>Workout Tracker</Card.Title>
+            <Card.Text>
+              Workout tracker using MongDB and Mongoose to record fitness sessions.
+            </Card.Text>
+            <Button variant="primary">View Repository</Button>
+          </Card.Body>
+        </Card>
+            </Col>
+            <Col>
+            <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src={Budget}/>
+          <Card.Body>
+            <Card.Title>Budget Tracker</Card.Title>
+            <Card.Text>
+            A budget tracker that can be used offline and updates once back online Using indexedDB.
+            </Card.Text>
+            <Button variant="primary">View Repository</Button>
+          </Card.Body>
+        </Card>
+            </Col>
+
+            </Row>
+           
+        </Container>
+        
+       
+        
       </div>
     </div>
   );

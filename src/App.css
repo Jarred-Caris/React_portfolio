@@ -37,3 +37,12 @@
   font-size: xx-large;
   color: aliceblue;
 }
+
+.jumbotron {
+  color:rgb(47, 107, 219);
+ 
+}
+
+.card {
+  margin: 20px;
+}
