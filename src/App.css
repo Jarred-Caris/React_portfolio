@@ -18,7 +18,7 @@
 
 }
 
-.header-wrapper {
+body {
   position: relative;
   background: url(tech.jpg);
   background-size: cover;
@@ -50,4 +50,9 @@
 .card {
   margin: 20px;
   background-color: black !important;
+}
+.footer {
+  color: aliceblue;
+  text-align: center;
+  background-color: black;
 }

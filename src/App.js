@@ -7,6 +7,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
           <Route exact path="/Contact" component={Contact} />
         </div>
         </Header>
+        <Footer/>
       </Router>
+      
     </div>
   );
 }
